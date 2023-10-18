@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    margin: 50px;
+    max-width: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div, li{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    transition: 0.5s all linear;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+li{
+    font-size: 15px;
+    width: 100px;
+    transition: 0.5s all linear;
+}
+
+.container div:hover ,.container div:hover .dropdown{
+    background-color: aliceblue;
+    color: black;
+    display: block;
+}
+li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.two{
+    position: relative;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 67px;
+    left: -7px;
+}
